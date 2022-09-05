@@ -10,6 +10,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.margin {
+    margin: auto;
+}
+
 /*Header*/
 header {
     margin:auto;
@@ -166,8 +170,6 @@ header {
     margin-left: 20px;
 }
 
-/*Main*/
-
 /*Organization*/
 .organization {
     height: 700px;
@@ -197,12 +199,31 @@ header {
     font-size: 17px;
 }
 
+/*Voice*/
 .voice {
     height: 700px;
-    background-color: aquamarine;
+    background-color: white;
     display: flex;
 
 }
+
+#voice-photo {
+    margin-left: 125px;
+
+}
+
+.voice-title {
+    padding-top: 26px;
+    font-size: 40px;
+    
+}
+
+.voice-para {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+
 
 .fandom {
     height: 700px;
