@@ -1,0 +1,35 @@
+/*General Settings*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    width: 80%;
+    max-width: 1200px;
+    margin:auto;
+    background-color: pink;
+
+}
+
+.col-1 {
+    width: calc(100% / 12 * 1);
+
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
+
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
+
+}
+
+.col-9 {
+    width: calc(100% / 12 * 9);
+
+}
