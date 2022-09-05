@@ -9,8 +9,15 @@
 /*Header*/
 header {
     margin:auto;
-    background-color: pink;
+    background-color: transparent;
     height: 50px;
+    padding-top: 20px;
+}
+
+.menu {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
 }
 
 .red {
@@ -86,9 +93,11 @@ header {
 
 /*Cover*/
 .cover {
-    background-color: beige;
-    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    height: 650px;
     padding-top: 100px;
+    margin-top: -55px;
 }
 
 .cov-caption {
