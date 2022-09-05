@@ -223,14 +223,31 @@ header {
     font-size: 17px;
 }
 
-
-
+/*Fandom*/
 .fandom {
     height: 700px;
-    background-color: aquamarine;
+    background-color: white;
     display: flex;
 
 }
+
+#fandom-photo {
+    margin-left: 125px;
+
+}
+
+.fandom-title {
+    padding-top: 26px;
+    font-size: 40px;
+    
+}
+
+.fandom-para {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+
 
 .technology {
     height: 1000px;
