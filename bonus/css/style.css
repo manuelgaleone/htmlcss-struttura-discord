@@ -167,11 +167,34 @@ header {
 }
 
 /*Main*/
+
+/*Organization*/
 .organization {
     height: 700px;
-    background-color: aquamarine;
+    background-color: white;
     display: flex;
 
+}
+
+.org-caption {
+    margin-left: -200px;
+
+}
+
+#org-photo {
+    margin-left: 125px;
+
+}
+
+.org-title {
+    padding-top: 26px;
+    font-size: 40px;
+    
+}
+
+.org-para {
+    margin-top: 20px;
+    font-size: 17px;
 }
 
 .voice {
