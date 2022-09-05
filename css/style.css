@@ -10,6 +10,7 @@
 header {
     margin:auto;
     background-color: pink;
+    height: 50px;
 }
 
 /*Rows and Columns*/
@@ -17,7 +18,7 @@ header {
     width: 80%;
     margin: auto;
     display: flex;
-    height: 50px;
+
 }
 
 .col-1 {
@@ -30,8 +31,18 @@ header {
 
 }
 
+.col-4 {
+    width: calc(100% / 12 * 4);
+
+}
+
 .col-6 {
     width: calc(100% / 12 * 6);
+
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
 
 }
 
@@ -54,4 +65,11 @@ header {
     margin-left: auto;
     margin-right: auto;
     
+}
+
+/*Organization*/
+.organization {
+    height: 700px;
+    background-color: aquamarine;
+    display: flex;
 }
