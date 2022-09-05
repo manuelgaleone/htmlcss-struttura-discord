@@ -58,7 +58,7 @@ header {
     padding-top: 100px;
 }
 
-.caption {
+.cov-caption {
     width: 700px;
     height: 300px;
     background-color: aqua;
@@ -87,4 +87,19 @@ header {
     background-color: aquamarine;
     display: flex;
 
+}
+
+.technology {
+    height: 1000px;
+    display: flex;
+    padding-top: 100px;
+}
+
+.tech-caption {
+    width: 1500px;
+    height: 800px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
