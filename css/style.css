@@ -73,3 +73,9 @@ header {
     background-color: aquamarine;
     display: flex;
 }
+
+.voice {
+    height: 700px;
+    background-color: aquamarine;
+    display: flex;
+}
