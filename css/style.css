@@ -111,7 +111,18 @@ header {
 
 footer {
     background-color: pink;
-    height: 700px;
+    height: 800px;
     padding-top: 100px;
+
+}
+
+.sub-footer {
+    display: flex;
+    height: 150px;
+    margin: auto;
+    width: 80%;
+    border-top: 1px solid;
+    margin-top: 25px;
+    padding-top: 25px;
     
 }
