@@ -6,18 +6,32 @@
 
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /*Header*/
 header {
     margin:auto;
     background-color: transparent;
     height: 50px;
-    padding-top: 20px;
+    padding-top: 45px;
 }
 
-.menu {
+#menu {
     font-size: 20px;
     color: white;
     text-decoration: none;
+    padding: 15px;
+}
+
+#accedi {
+    width: 80px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+
 }
 
 .red {
