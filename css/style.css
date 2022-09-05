@@ -13,6 +13,17 @@ header {
     height: 50px;
 }
 
+.row .col-3 {
+    background-color: red;
+    height: 50px;
+
+}
+
+.row .col-6 {
+    background-color: blue;
+    height: 50px;
+}
+
 /*Rows and Columns*/
 .row {
     width: 80%;
@@ -80,6 +91,16 @@ header {
 
 }
 
+.row .col-8 {
+    background-color: red;
+    height: 500px;
+}
+
+.row .col-4 {
+    background-color: blue;
+    height: 500px;
+}
+
 .voice {
     height: 700px;
     background-color: aquamarine;
@@ -87,11 +108,31 @@ header {
 
 }
 
+.voice .col-8 {
+    background-color: red;
+    height: 500px;
+}
+
+.voice .col-4 {
+    background-color: blue;
+    height: 500px;
+}
+
 .fandom {
     height: 700px;
     background-color: aquamarine;
     display: flex;
 
+}
+
+.fandom .col-8 {
+    background-color: red;
+    height: 500px;
+}
+
+.fandom .col-4 {
+    background-color: blue;
+    height: 500px;
 }
 
 .technology {
@@ -113,6 +154,13 @@ footer {
     background-color: pink;
     height: 800px;
     padding-top: 100px;
+
+}
+
+.row .col-4 {
+    height: 500px;
+    background-color: red;
+    border: 1px solid;
 
 }
 
