@@ -337,12 +337,16 @@ footer {
 }
 
 .sub-footer {
-    display: flex;
     height: 150px;
     margin: auto;
     width: 80%;
-    border-top: 1px solid;
+    border-top: 1px solid white;
     margin-top: 25px;
-    padding-top: 25px;
+    padding-top: 10px;
     
+}
+
+.foot-marg {
+    text-align: right;
+
 }
