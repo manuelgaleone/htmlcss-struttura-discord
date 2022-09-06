@@ -277,7 +277,7 @@ header {
 /*Footer*/
 footer {
     background-color: #23272A;
-    height: 800px;
+    height: 500px;
     padding-top: 100px;
 
 }
@@ -309,16 +309,25 @@ footer {
 }
 
 .sub-footer {
-    height: 150px;
-    margin: auto;
-    width: 80%;
+    margin-top:35px;
+}
+
+.divisor {
     border-top: 1px solid white;
     margin-top: 25px;
-    padding-top: 10px;
+}
+
+#scarica-ora-sub-footer {
+    width: 85px;
+    height: 35px;
+    background-color: rgb(111, 111, 203);
+    border: none;
+    border-radius: 20px;
+    margin-left: 200px;
+    color: white;
     
 }
 
-.foot-marg {
+.right {
     text-align: right;
-
 }
